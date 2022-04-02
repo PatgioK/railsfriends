@@ -1,0 +1,10 @@
+{
+  "name": "railsfriends",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^2.0.0",
+    "prettier": "^2.6.1",
+    "prettier-plugin-erb": "^0.4.0"
+  }
+}
