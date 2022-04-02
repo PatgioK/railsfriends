@@ -17,7 +17,12 @@
   </head>
   <body>
   <%= render 'home/header'%>
-  <div classname="container">
+  <div classname="container-sm">
+    <% if notice %>
+    <br/>
+    <%= render 'layouts/alerts' %>
+    <% end %>
+
       <%= yield %>
     <h1>FOOTER </h1>
 
